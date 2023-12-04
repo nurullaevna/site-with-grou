@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            green: '#224F34',
+                            lightGreen: '#2ea857 '
+                        },
+                    },
+                    container: {
+                        center: true,
+                        padding: {
+                            DEFAULT: '0.5rem',
+                            sm: '1.5rem',
+                            lg: '2.5rem',
+                            xl: '3.5rem',
+                            '2xl': '4.5rem',
+                        },
+                    },
+
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <section class="container">
+            <div class="flex items-center lg:flex-row flex-col md:gap-14 gap-14 justify-around ">
+                
+                <div class="flex flex-col gap-10 md:text-left  text-center">
+                    <div class="flex lg:justify-start  justify-center">
+                        <p class="w-[227px] h-5 opacity-80 text-zinc-900 text-base font-normal font-['Muller'] leading-tight hover:text-gray-500 cursor-pointer">Главная     /  Уникальные зеркала</p>
+                    </div>
+                    <h2 class=" text-zinc-900 text-4xl font-medium  leading-10 lg:w-[400px] w-full lg:text-left text-center md:mt-12 mt-5">Уникальные зеркала для самых
+                        ярких
+                        интерьеров</h2>
+                    <p class="lg:w-96 w-full lg:text-left text-center opacity-80 text-zinc-900 text-xl font-normal font-['Muller'] leading-loose">Работаем
+                        с дизайнерами и архитекторами, предлагая индивидуальные решения и выгодные условия
+                        сотрудничества</p>
+                    <div class="flex lg:justify-start justify-center items-center">
+                        <button
+                            class="w-[329px] h-[90px] bg-fuchsia-800 text-white  text-xl font-medium  leading-7 hover:bg-transparent border border-solid border-fuchsia-800 hover:text-fuchsia-800">Сотрудничать
+                            с нами
+                            </button>
+                    </div>
+                    <div class="flex gap-12 items-center lg:flex-row flex-col">
+                        <img src="images/Паги.png" alt="" class="w-[98px] h-[11px]">
+                        <div class="flex gap-3 sm:flex-row flex-col">
+                            <img src="images/Назад.png" alt="">
+                            <img src="images/Вперёд.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div >
+                    <img src="/images/cata.jpg" alt="" class="w-[758px] h-[757px] p-6" >
+
+                </div>
+            </div>
+        </section>
+    </body>
+
+    </html>
+</body>
+
+</html>
